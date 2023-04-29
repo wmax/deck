@@ -49,6 +49,9 @@ build-js-dev: install-deps
 watch:
 	npm run watch
 
+hot:
+	npm run hot
+
 test: test-unit test-integration
 
 test-unit:

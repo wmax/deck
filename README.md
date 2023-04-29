@@ -80,6 +80,7 @@ Deck requires running a `make build-js` to install npm dependencies and build th
 #### Hot reloading
 
 Enable debug mode in your config.php `'debug' => true,`
+Use `make hot` to utilize the websocket based hot reloading approach.
 
 Without SSL:
 ```
@@ -96,7 +97,6 @@ npx webpack-dev-server --config webpack.dev.js --https \
     --public nextcloud.local:3000 \
     --output-public-path 'https://nextcloud.local:3000/js/'
 ```
-
 
 ### Running tests
 You can use the provided Makefile to run all tests by using:
